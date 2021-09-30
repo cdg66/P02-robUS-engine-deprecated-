@@ -48,6 +48,8 @@ Fonctions de boucle infini (loop())
 // -> Se fait appeler perpetuellement suite au "setup"
 
 void loop() {
+  
+  AX_BuzzerON();
   // SOFT_TIMER_Update(); // A decommenter pour utiliser des compteurs logiciels
   delay(10);// Delais pour décharger le CPU
 }
