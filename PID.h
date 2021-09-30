@@ -1,11 +1,19 @@
+#ifndef PID_H
+#define PID_H
+
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+
 #include <Arduino.h>
-#include <librobus.h>
+//#include <librobus.h>
 typedef  int32_t PID_Constant_Type;
 typedef struct _PID
 {
-    PID_Constant_Type Kp;
-    PID_Constant_Type Ki;
-    PID_Constant_Type Kd;
+    float Kp;
+    float Ki;
+    float Kd;
     PID_Constant_Type PError;
     PID_Constant_Type LastPError;
     PID_Constant_Type IError;
@@ -15,8 +23,14 @@ typedef struct _PID
 
 } PID_Handler;
 
-void PID_Init(PID_Handler *PID, PID_Constant_Type ConstantP,PID_Constant_Type ConstantI, PID_Constant_Type ConstantD, PID_Constant_Type TimeBaseMs);
+void PID_Init(PID_Handler *PID, float ConstantP, float ConstantI, float ConstantD, PID_Constant_Type TimeBaseMs);
 
 void PID_SetGoal(PID_Handler *PID, PID_Constant_Type Goal);
 
 float PID_Compute(PID_Handler *PID, PID_Constant_Type InputData );
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
