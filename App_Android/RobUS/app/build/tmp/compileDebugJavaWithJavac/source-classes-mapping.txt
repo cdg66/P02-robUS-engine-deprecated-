@@ -1,0 +1,29 @@
+com/example/robus/databinding/FragmentNotificationsBinding.java
+ com.example.robus.databinding.FragmentNotificationsBinding
+com/example/robus/databinding/FragmentDashboardBinding.java
+ com.example.robus.databinding.FragmentDashboardBinding
+com/example/robus/ui/dashboard/DashboardViewModel.java
+ com.example.robus.ui.dashboard.DashboardViewModel
+com/example/robus/ui/notifications/NotificationsFragment.java
+ com.example.robus.ui.notifications.NotificationsFragment
+ com.example.robus.ui.notifications.NotificationsFragment$1
+com/example/robus/ui/dashboard/DashboardFragment.java
+ com.example.robus.ui.dashboard.DashboardFragment
+ com.example.robus.ui.dashboard.DashboardFragment$1
+com/example/robus/MainActivity.java
+ com.example.robus.MainActivity
+com/example/robus/databinding/FragmentHomeBinding.java
+ com.example.robus.databinding.FragmentHomeBinding
+com/example/robus/databinding/MainBinding.java
+ com.example.robus.databinding.MainBinding
+com/example/robus/databinding/ActivityMainBinding.java
+ com.example.robus.databinding.ActivityMainBinding
+com/example/robus/ui/home/HomeViewModel.java
+ com.example.robus.ui.home.HomeViewModel
+com/example/robus/BuildConfig.java
+ com.example.robus.BuildConfig
+com/example/robus/ui/home/HomeFragment.java
+ com.example.robus.ui.home.HomeFragment
+ com.example.robus.ui.home.HomeFragment$1
+com/example/robus/ui/notifications/NotificationsViewModel.java
+ com.example.robus.ui.notifications.NotificationsViewModel
