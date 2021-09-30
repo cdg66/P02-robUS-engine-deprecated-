@@ -9,7 +9,7 @@ Date: Derniere date de modification
 /* ****************************************************************************
 Inclure les librairies de functions que vous voulez utiliser
 **************************************************************************** */
-
+#include <stdio.h>
 #include <LibRobus.h> // Essentielle pour utiliser RobUS
 
 
